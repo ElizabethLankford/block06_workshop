@@ -1,0 +1,46 @@
+/* 
+Site colors
+#293241
+#5d737e
+#64b6ac
+#daffef
+#fcfffd
+*/
+
+body{
+    box-sizing: border-box;
+    background-color: #fcfffd;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+    color: #293241;
+    text-align: center;
+}
+h2{
+    background-color: #64b6ac;
+    border: 1px solid #293241;
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 50%
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1000px;
+}
+.item-type-subcontainer{
+    background-color: #daffef;
+    width: 30vw;
+    max-width: 250px;
+    margin: .5rem;
+    padding: .3rem;
+}
+
+.item-img{
+    height: 150px;
+    padding: 1rem;
+}
+ul{
+    padding-left: 1rem;
+}
